@@ -3513,14 +3513,21 @@ footer a {
 }
 
 footer a:hover, footer a:focus, footer a:active {
-    color: #39b54a;
+    color: #FFD200;
 }
-
+footer a:hover i, footer a:focus i, footer a:active i{
+    color: red;
+}
+footer ul a:hover i, ul footer a:focus i, footer ul a:active i{
+    color: #FFD200;
+}
 footer .row {
     max-width: 980px;
 }
-
-
+footer ul
+{
+    padding-top: 5vh;
+}
 /* --------------------------------------------------------------- 
  * ## footer main
  * --------------------------------------------------------------- */
@@ -3542,10 +3549,10 @@ footer .row {
     padding: 0;
     outline: 0;
     border: none;
-    width: 85px;
-    height: 28px;
-    background: url("../images/logo-footer.png") no-repeat center;
-    background-size: 85px 28px;
+    width: 50px;
+    height: 50px;
+    background: url("../images/EnactusThapar.png") no-repeat center;
+    background-size: 50px 50px;
     font: 0/0 a;
     text-shadow: none;
     color: transparent;
@@ -3645,7 +3652,6 @@ footer .row {
 .footer-bottom .copyright span:last-child::after {
     display: none;
 }
-
 
 /* ------------------------------------------------------------------- 
  * ## go to top
