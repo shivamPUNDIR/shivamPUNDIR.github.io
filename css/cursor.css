@@ -1,0 +1,127 @@
+/* .cursor,.follow{
+    position: absolute;
+    pointer-events: none;
+    width: 0.4em;
+    height: 0.4em;
+    transform: translate(-50%,-50%);
+}
+
+.cursor{
+    background: #fff;
+    border-radius: 50%;
+}
+
+.follow{
+    padding: 2em;
+    border: 0.1rem solid #fff;
+    transition:all 0.2s ease-out ;
+    border-radius: 100%;
+}
+
+.follow.on-focus{
+    transform: translate(-0.55rem,-0.55rem);
+    border: 0.1rem solid white;
+    border-radius: 0%;
+    padding: 0.46rem;
+} */
+html,
+body {
+    cursor: none;
+}
+
+.circular-text {
+  position: fixed;
+  /* top: 160px;
+    left: 60px; */
+  /* transform: translate(-50%, -50%); */
+  color: rgba(0, 0, 0, 0);
+  background-color: black;
+  font-size: 24px;
+  font-weight: bolder;
+  font-family: "Monument Extended";
+  transition: 0.5s ease-out;
+  /* rgba(255,255,255,0.4); */
+  -webkit-text-stroke: 2px rgba(0, 0, 0, 1);
+  z-index: 10000000000000;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* mix-blend-mode:luminosity; */
+}
+.hover-this {
+  transition: all 0.3s ease;
+}
+
+.anim-nav {
+  display: inline-block;
+
+  /* font-size: 36px; */
+  text-transform: uppercase;
+  pointer-events: none;
+  transition: transform 0.1s linear;
+}
+
+.cursor {
+  pointer-events: none;
+  position: fixed;
+  padding: 0.6rem;
+  background-color: #fff;
+  border-radius: 50%;
+  
+  transition: transform 0.3s ease;
+  z-index:10000000000000000;
+}
+
+.scale{
+    transform: translate(-50%, -50%) scale(4);
+  color: #fff;
+}
+.blend{
+    mix-blend-mode: difference;
+}
+
+
+/* .back_text1{
+    position: absolute;
+
+    font-size: 360px;
+    font-weight: bolder;
+    font-family: "Monument Extended";
+    transition: 0.5s ease-out;
+
+    -webkit-text-stroke:2px rgba(120,120,120,0.3);
+    z-index: 10000000000000;
+    top: 20%;
+    left: 0;
+
+    mix-blend-mode:luminosity;
+} */
+/* .back_text2{
+    position: absolute;
+    color: rgba(0,0,0,0);
+
+    font-size: 360px;
+    font-weight: bolder;
+    font-family: "Monument Extended";
+    transition: 0.5s ease-out;
+
+    -webkit-text-stroke:2px rgba(120,120,120,0.3);
+    z-index: 10000000000000;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    mix-blend-mode:luminosity;
+} */
+/* .back_text3{
+    position: absolute;
+    color: rgba(255,255,255,1);
+    font-size: 360px;
+    font-weight: bolder;
+    font-family: "Monument Extended";
+    transition: 0.5s ease-out;
+    z-index: 100000000000000000000000000000000;
+    top: 0;
+    left: 50%;
+    transform: translate(0, -50%);
+    mix-blend-mode:luminosity;
+} */
